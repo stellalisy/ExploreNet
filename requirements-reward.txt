@@ -1,0 +1,11 @@
+# GenEval2 reward server (scripts/geneval2_server.py). Qwen3-VL needs a newer
+# transformers than the SD3 training environment, so install these into a
+# separate environment (or a --target overlay) that shares the same torch.
+torch==2.6.0
+transformers==4.57.0
+accelerate==1.14.0
+huggingface-hub==0.36.2
+tokenizers==0.22.2
+safetensors==0.8.0
+pillow
+qwen-vl-utils==0.0.14

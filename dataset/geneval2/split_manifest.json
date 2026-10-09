@@ -1,0 +1,8 @@
+{
+  "seed": 20260616,
+  "source": "geneval2_data.jsonl (https://github.com/facebookresearch/GenEval2)",
+  "test": 80,
+  "test_size": 80,
+  "total": 800,
+  "train": 720
+}
